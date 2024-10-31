@@ -1,0 +1,43 @@
+:root {
+	--font: ;
+	--background:#171d20 ;
+	--text:#bde6fb ;
+	--text-hover:#6ee1b6 ;
+	--card:#1e2529 ;
+	--card-border:#323e44;
+	--font-family: "Segoe UI, Roboto, Helvetica, Arial, sans-serif";
+
+
+} 
+
+body {
+        font-family: var(--font-family)!important; 
+        background:var(--background)!important;
+        color:var(--text)!important;
+        font-size:20px !important;
+}
+
+.flexbox-container {
+	float:left;
+	display:flex;
+	width:90%;
+	flex-direction:row;
+	margin-top:75px;
+	margin-left:80px;
+}
+.card {
+  width:90%;
+  box-shadow: 0 3px 6px 0 var(--card-border);
+  padding: 20px;
+  margin:30px;
+  text-align: center;
+  background-color: var(--card);
+}
+
+  /* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display:block;
+    margin-bottom:20px;
+  }
+} */
