@@ -5,7 +5,7 @@
 	--text-hover:#6ee1b6 ;
 	--card:#1e2529 ;
 	--card-border:#323e44;
-	--font-family: "Segoe UI, Roboto, Helvetica, Arial, sans-serif";
+	--font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 
 } 
@@ -14,7 +14,27 @@ body {
         font-family: var(--font-family)!important; 
         background:var(--background)!important;
         color:var(--text)!important;
-        font-size:20px !important;
+        font-size:30px !important;
+	font-weight:300;
+}
+a:link {
+	color:var(--text);
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+	color:var(--text);
+}
+
+a:hover {
+	text-decoration:none;
+	color:var(--text);
+}
+
+a:active {
+	text-decoration:none;
+	color:var(--text);
 }
 
 .flexbox-container {
@@ -28,16 +48,21 @@ body {
 .card {
   width:90%;
   box-shadow: 0 3px 6px 0 var(--card-border);
-  padding: 20px;
+  padding: 35px;
   margin:30px;
   text-align: center;
   background-color: var(--card);
 }
-
-  /* @media screen and (max-width: 600px) {
+.1 {
+	padding-top:50px !important;
+}
+.2 {
+	padding-top:30px !important;
+}
+ @media screen and (max-width: 600px) {
   .column {
     width: 100%;
     display:block;
     margin-bottom:20px;
   }
-} */
+}
